@@ -1,0 +1,117 @@
+
+/*HEADER*/
+.logo img{
+	width: 125px;
+	height: 125px;
+	padding: 1rem;
+}
+
+li a{
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: 500;
+	color: #61767C;
+	text-decoration: none;
+	margin-right: 1.75rem;
+	margin-top: 1.75rem;
+	margin-bottom: 1.75rem;
+}
+
+
+/*IMAGE/HERO*/
+.image img{
+	padding-top: 1rem;
+	width: 100%;
+
+}
+
+/*FEATURES*/
+.features{
+}
+
+h2{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #61767C;
+	margin: 2rem;
+}
+
+h3{
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	color: #72929A;
+}
+
+p{
+	font-family: 'Gelasio', serif;
+	color: #747473;
+}
+
+.features h2{
+	padding-left: 1.5rem;
+}
+
+.features div{
+	padding-right: 1.5rem;
+	padding-left: 1.5rem;
+}
+
+/*IMAGE*/
+.image{
+	padding: 3rem;
+	width: 100%;
+	height: auto;
+}
+
+
+/*DATEPICKER*/
+section h2{
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+
+/*ABOUT WILMINGTON*/
+.Wilmington{
+	background-color: #E9F3F4;
+	margin: 2rem;
+
+}
+.Wilmington img{
+	padding: 1rem;
+
+}
+.Wilmington h3{
+	padding: .5rem;
+	text-align: left;
+}
+
+.Wilmington p{
+	padding: .5rem;
+}
+
+.Wilmington a{
+	padding: .5rem;
+	background-color: #72929A;
+	text-decoration: none;
+	color: #CDDFE0;
+	font-family: 'Noto Sans JP', sans-serif;
+	margin: .5rem;
+}
+/*FOOTER*/
+.footer{
+	background-color: #CDDFE0;
+}
+
+.footer p{
+ 	color: #61767C;
+ 	padding: .5rem;
+ 	margin: none;
+}
+
+i{
+ 	color: #61767C;
+ 	padding-right: .5rem;
+ 	padding-bottom: .5rem;
+ 	padding-top: .5rem;
+ 	font-size: 20px;
+ 	margin: .5rem;
+}
+

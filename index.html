@@ -1,0 +1,143 @@
+<!doctype html>
+<html class="no-js" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiet Harbor</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/app.css">
+    <link href="https://fonts.googleapis.com/css?family=Noto+Sans+JP:300,400,500,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gelasio:400,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css" />
+    <script src="https://kit.fontawesome.com/ce614c55b5.js" crossorigin="anonymous"></script>
+  </head>
+
+<body>
+ <!-- Logo and Navigation -->
+    <header>
+      <div class="grid-x">
+        <div class="cell medium-6">
+          <a href="index.html" class="logo"> 
+          <img src="img/Hotellogo_3.svg" alt="test"/></a>
+        </div>
+        <div class="cell medium-6">
+          <ul class="menu align-right" data-magellan>
+            <li><a href="#table">Booking</a></li>
+            <li><a href="#features">Features</a></li>
+            <li><a href="#Wilmington">Wilmington</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+<!-- Hero Image -->
+<section class="imageslider">
+      <img src="img/room1.jpg" alt="room1">
+</section>
+
+<!-- Features -->
+<section class="features" id="features" data-magellan-target="features">
+  <h2>Hotel Features</h2>
+  <div class="grid-container">
+    <div class="grid-x">
+      <div class="cell medium-4">
+        <img src="img/wifi1.jpg" alt="wifi1">
+        <h3> Wifi</h3>
+        <p>There is free wifi all around the property. All you need to do is sign in with your email and your room number</p>
+      </div>
+  
+      
+      <div class="cell medium-4">
+        <img src="img/room4.jpg" alt="room4">
+        <h3>Beds</h3>
+        <p>We have many rooms that will fit your need. We have king, queen, twin, and cot beds. Some rooms have pull our couches as well.</p>
+      </div>
+      
+       <div class="cell medium-4">
+        <img src="img/desk1.jpg" alt="desk1">
+        <h3>Concierge Services</h3>
+        <p>At our restaurant we have somebody at our front desk 24/7. If you need help with directions or need a restaurant recommendation ask our concierge.</p>
+      </div>
+    </div>   
+  </div>
+</section>
+
+<!-- Image -->
+<section class="image">
+  <img src="img/room3.jpg">
+</section>
+
+<!-- Date Picker -->
+<section>
+  <h2>Booking</h2>
+</section>
+<table class="table" id="table" data-magellan-target="table">
+      <thead>
+        <tr>
+          <th>Check In:
+            <input type="text" class="span2" value="" id="dpd1">
+          </th>
+          <th>Check Out:
+            <input type="text" class="span2" value="" id="dpd2">
+          </th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr colspan="2">
+          <td>
+            <button class="button" data-open="confirm-booking" id="dpd3">Reserve</button>
+          </td>
+        </tr>
+      </tbody>
+    </table>
+
+<!-- About Wilmington -->
+<section class="Wilmington" id="Wilmington" data-magellan-target="Wilmington">
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+          <div class="cell medium-6">
+            <img src="img/beach.jpg" />
+          </div>
+          <div class="cell medium-6">
+            <h3>About Wilmington</h3>
+            <p>Wilmington is located in the southeast of North Carolina. Wilmington is a river district and has beautiful beaches. Wilmington is the a great place to bring the family. Many tourist go there to enjoy the beach. Quiet Harbor is only less than 1 mile away from the beach. In Wilmington there is a historical disrtict, nightlife, and an arts & culture section. There is ove 400 film-related credits in the Area. Some famous shows and movies that were made in North Carolina were, One Tree Hill, Dawson's Creek, Iron Man 3, Scream, and The Longest Ride. </p>
+            <a href="#"> Learn More</a>
+          </div>
+        </div>
+      </div>
+</section>
+           
+
+<!-- Footer --> 
+<footer class="footer">
+  <div class="grid-x">
+        <div class="cell medium-3 align-left">
+          <a href="index.html" class="footer"> </a>
+          <p>Copyright &copy; 2020 Quiet Harbor</p>
+        </div>
+
+        <div class="cell medium-3 align-left">
+          <p>Location: 1939 Honeysuckle ST Wilmington, NC 28401 </p>
+        </div> 
+
+        <div class="cell medium-3 align-left">
+          <p> Contact: 910-888-4720 </p>
+        </div> 
+
+        <div class="cell medium-3 align-left">
+          <ul class="menu">
+            <li><i class="fab fa-facebook-f"></i></li>
+            <li><i class="fab fa-instagram"></i></li>
+            <li><i class="fab fa-yelp"></i></li>
+          </ul>
+        </div>
+  </div>
+</footer>
+
+<script src="js/vendor/foundation-datepicker.min.js"></script>
+<script src="js/app.js"></script>
+
+
+</body>
+
+</html>
